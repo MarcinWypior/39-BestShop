@@ -313,3 +313,123 @@ header {
 .l3 {
   background-color: var(--color-green);
 }
+
+/* Pricing */
+
+.pricing {
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+}
+
+.pricing h2 {
+  font-size: 36px;
+  margin: 50px;
+}
+
+.pricing__boxes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin: 10px;
+}
+
+.pricing__box {
+  position: relative;
+  width: 370px;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+  padding-top: 30px;
+  margin: 0 29px;
+}
+
+.pricing__box.font-red {
+  border-color: var(--color-redish);
+}
+
+.pricing__box.font-green {
+  border-color: var(--color-green);
+}
+
+.pricing__box.font-blue {
+  border-color: var(--color-primary);
+}
+
+.pricing__items > li {
+  margin: 10px;
+}
+
+.pricing__limited {
+  font-weight: 700;
+  font-size: 12px;
+  margin: 10px;
+}
+
+.pricing__items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 80px;
+  list-style-image: url("../pictures/Ckechmark-1.svg");
+}
+
+.pricing__items .nc {
+  list-style-image: url("../pictures/Close.svg");
+}
+
+.pricing__price.font-red {
+  color: var(--color-redish);
+}
+
+.pricing__price.font-green {
+  color: var(--color-green);
+}
+
+.pricing__price.font-blue {
+  color: var(--color-primary);
+}
+
+.btn {
+  position: relative;
+  color: white;
+  font-size: 13px;
+  padding: 16px 65px;
+  border-radius: 25px;
+  top: 20px;
+}
+
+.btn.font-red {
+  background: var(--color-redish);
+}
+
+.btn.font-blue {
+  background: var(--color-primary);
+}
+
+.btn.font-green {
+  background-color: var(--color-green);
+}
+
+.pricing__type {
+  font-size: 1.25rem;
+  font-family: var(--font-raleway);
+  font-weight: 700;
+}
+
+.pricing__price {
+  font-size: 2.875rem;
+  font-family: var(--font-open-sans);
+  font-weight: 300;
+  margin-top: 25px;
+  color: var(--accent-color);
+}
+
+/* Form */
